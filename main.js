@@ -23,6 +23,7 @@ function guessingGame() {
       guessingGame();
     } else {
       alert(`pringao... era ${randomNumber} anda prueba otra vez`);
+      guessingGame();
     }
   }
 }
