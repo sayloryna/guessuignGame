@@ -22,7 +22,7 @@ function guessingGame() {
       alert(`${hint} prueba otra vez`);
       guessingGame();
     } else {
-      alert(`pringao... era ${randomNumber} Adios`);
+      alert(`pringao... era ${randomNumber} anda prueba otra vez`);
       guessingGame();
     }
   }
